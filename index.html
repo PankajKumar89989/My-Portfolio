@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Kumar | Software Engineer & Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome & Google Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glow-bg"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span> PANKAJ <span class="highlight">KUMAR</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Work</a>
+            <a href="#process">Process</a>
+            <a href="#contact" class="btn-connect">Let's Connect</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">SOFTWARE ENGINEER & FULL STACK DEVELOPER</div>
+            <h1>I design & build <br><span class="gradient-text">experiences that feel like the future.</span></h1>
+            <p>I craft intuitive digital experiences and scalable backends that merge technology with elegant UI design — turning ideas into functional digital products.</p>
+            
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="#about" class="btn-secondary">About Me <i class="fas fa-user"></i></a>
+            </div>
+
+            <div class="availability">
+                <span class="dot"></span> Available for Projects & Full-time Roles
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="avatar-card">
+                <div class="avatar-glow"></div>
+                <div class="avatar-img-placeholder">
+                    <i class="fas fa-code-branch user-icon"></i>
+                </div>
+                <div class="floating-badge badge-top-right">
+                    <span>DESIGN & CODE</span>
+                    <p>With purpose & precision</p>
+                </div>
+                <div class="floating-badge badge-bottom-left">
+                    <div class="exp-num">B.Tech</div>
+                    <div class="exp-text">Computer Science Engineering (2021–2025)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Case Studies / Projects -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <div>
+                <span class="sub-heading">FEATURED CASE STUDIES</span>
+                <h2>Designing impact through <span class="gradient-text">meaningful solutions.</span></h2>
+            </div>
+            <button class="btn-link" id="refreshProjects">Reload Projects <i class="fas fa-sync-alt"></i></button>
+        </div>
+
+        <div class="projects-grid" id="projectsContainer">
+            <!-- Dynamic Projects loaded from Backend API -->
+        </div>
+    </section>
+
+    <!-- Services & Tools Section -->
+    <section id="services" class="section glass-panel">
+        <div class="grid-2col">
+            <div class="services-left">
+                <span class="sub-heading">SERVICES</span>
+                <h2>End-to-end software solutions tailored to your goals.</h2>
+            </div>
+            <div class="tools-right">
+                <span class="sub-heading">TOOLS & TECH I USE</span>
+                <div class="tech-icons">
+                    <span class="tech-tag"><i class="fab fa-java"></i> Java</span>
+                    <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
+                    <span class="tech-tag"><i class="fab fa-react"></i> React.js</span>
+                    <span class="tech-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="tech-tag"><i class="fas fa-database"></i> MongoDB / SQL</span>
+                    <span class="tech-tag"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="tech-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-cards">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3>Full Stack Development</h3>
+                <p>Building responsive frontends in React and resilient backend services using Node.js & Express.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-brain"></i></div>
+                <h3>ML & Data Insights</h3>
+                <p>Developing predictive algorithms and data engineering pipelines using Python and Scikit-Learn.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                <h3>UI/UX Implementation</h3>
+                <p>Crafting sleek, accessible, and high-performance glassmorphism interfaces and design systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Process Section -->
+    <section id="process" class="section">
+        <span class="sub-heading">MY PROCESS</span>
+        <h2>A engineering approach to digital solutions.</h2>
+
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-num">01</div>
+                <h4>EMPATHIZE & PLAN</h4>
+                <p>Understand user requirements and architecture design.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">02</div>
+                <h4>ARCHITECTURE</h4>
+                <p>Define database schemes, API structures & UI flow.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">03</div>
+                <h4>DEVELOPMENT</h4>
+                <p>Clean, modular code with React, Express, and databases.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">04</div>
+                <h4>TEST & OPTIMIZE</h4>
+                <p>Rigorous API testing with Postman & UI optimization.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">05</div>
+                <h4>DEPLOY</h4>
+                <p>CI/CD pipelines, Docker containerization & hosting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section glass-panel contact-section">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <span class="sub-heading">HAVE A PROJECT IN MIND?</span>
+                <h2>Let's build something <span class="gradient-text">meaningful together.</span></h2>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> py904544@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9045444528</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ghaziabad / UP, India</p>
+                </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-full">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+                <div id="formResponse" class="form-response"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">PANKAJ KUMAR</div>
+            <p>© 2026 Pankaj Kumar. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
